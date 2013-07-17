@@ -17,7 +17,7 @@ function AS:SkinRCLootCouncil()
 	S:HandleCheckBox(MainFrameFilterPasses)
 	S:HandleScrollBar(ContentFrameScrollBar)	
 		
-	for i = 1,10 do
+	for i = 1,11 do
 		if _G["ContentFrameEntry"..i.."BtVote"] then S:HandleButton(_G["ContentFrameEntry"..i.."BtVote"])
 		end
 	end	
